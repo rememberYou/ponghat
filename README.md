@@ -1,6 +1,7 @@
 # ![Cisco Logo](assets/logo.png "Logo") PongHAT
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 PongHAT is a Pong game running on a Raspberry Pi 3 using functionalities from the Sense
 HAT.
@@ -16,19 +17,18 @@ HAT.
 It's as simple as that:
 
 ```
-git clone https://github.com/rememberYou/ponghat
+pip install ponghat
 ```
 
 ---
 
 ### Usage
 
-After being connected to the Raspberry using the Sense HAT, execute the
-following command to start a game:
+After being connected to the Raspberry using the Sense HAT and installed
+`ponghat`, execute the following command to start a game:
 
 ```
-cd ponghat
-python src/game.py
+ponghat
 ```
 
 **NOTE:** if you don't have any Sense HAT, you can use a [Sense HAT
