@@ -1,7 +1,9 @@
 # ![Cisco Logo](assets/logo.png "Logo") PongHAT
 
-PongHAT is a Pong game running on a Raspberry Pi 3 using functionalities from
-the Sense HAT.
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+PongHAT is a Pong game running on a Raspberry Pi 3 using functionalities from the Sense
+HAT.
 
 <p align="center">
 	<img src="assets/preview.jpg" alt="PyPong (Preview)" width="320">
@@ -31,3 +33,9 @@ python src/game.py
 
 **NOTE:** if you don't have any Sense HAT, you can use a [Sense HAT
 emulator](https://trinket.io/sense-hat).
+
+---
+
+### License
+
+Code is under the [MIT License](https://github.com/rememberYou/pypong/blob/master/LICENSE).
