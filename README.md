@@ -1,7 +1,7 @@
 # ![Cisco Logo](assets/logo.png "Logo") PongHAT
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
 PongHAT is a Pong game running on a Raspberry Pi 3 using functionalities from the Sense
 HAT.
@@ -40,6 +40,16 @@ After being connected to the Raspberry using the Sense HAT and installed
 
 ```
 ponghat
+```
+
+Alternatively you can run this tool using Docker:
+
+```bash
+# Build the image
+docker build -t ponghat .
+
+# Run the image
+docker run -v $(pwd):/app ponghat python ponghat.py
 ```
 
 **NOTE:** if you don't have any Sense HAT, you can use a [Sense HAT
