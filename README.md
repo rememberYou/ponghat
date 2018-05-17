@@ -36,6 +36,14 @@ emulator](https://trinket.io/sense-hat).
 
 ---
 
+### Contributions
+
+There are many ways to contribute. For example, by submitting a bug by opening
+an issue in the issue tracker, or by making a pull request. Ideas that can be
+implemented is adding particles, refactoring code, etc.
+
+---
+
 ### License
 
 Code is under the [MIT License](https://github.com/rememberYou/pypong/blob/master/LICENSE).
