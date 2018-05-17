@@ -11,7 +11,7 @@ except(IOError, ImportError):
 
 setup(
     name="ponghat",
-    version="1.0.0",
+    version="1.0.1",
     description="Pong game using functionalities from the Sense HAT",
     author="Terencio Agozzino",
     author_email="terencio.agozzino@gmail.com",
