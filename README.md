@@ -10,6 +10,17 @@ HAT.
 	<img src="assets/preview.jpg" alt="PyPong (Preview)" width="320">
 </p>
 
+This game offers two modes:
+
+- A first one, available during the first two levels where the player plays
+against a wall.
+
+- A second, from the third level, allowing artificial intelligence (AI) to
+appear in the game, increasing the similarities with the traditional pong game.
+
+**NOTE:** the speed of the game gradually increases with each game. Similarly,
+it increases as you move to the next level.
+
 ---
 
 ### Installation
